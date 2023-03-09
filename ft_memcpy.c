@@ -1,22 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dhanuman <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dhanuman <dhanuman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/09 15:35:47 by dhanuman          #+#    #+#             */
-/*   Updated: 2023/03/09 15:35:48 by dhanuman         ###   ########.fr       */
+/*   Created: 2023/03/09 14:59:52 by dhanuman          #+#    #+#             */
+/*   Updated: 2023/03/09 17:37:03 by dhanuman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_tolower(int c)
+#include <libft.h>
+/*
+void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 {
-	if (c >= 'A' && c <= 'Z' )
+	int				i;
+	int				l;
+	unsigned char	*s;
+
+	i = 0;
+	s = src;
+	l = n;
+	while (s[i] != '\0' && (i < l))
 	{
-		c += 32;
-		return (c);
+		dst = s[i];
+		i++;
 	}
-	else
-		return (c);
 }
+*/

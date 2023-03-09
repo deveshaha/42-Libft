@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dhanuman <dhanuman@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dhanuman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/07 17:04:07 by dhanuman          #+#    #+#             */
-/*   Updated: 2023/03/07 17:59:02 by dhanuman         ###   ########.fr       */
+/*   Created: 2023/03/09 15:35:26 by dhanuman          #+#    #+#             */
+/*   Updated: 2023/03/09 15:35:27 by dhanuman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_toupper(int c)
 {
-	if (c >= 'a' && c <= 'z' )
+	if (c >= 'a' && c <= 'z')
 	{
 		c -= 32;
 		return (c);
