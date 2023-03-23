@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dhanuman <dhanuman@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dhanuman <dhanuman@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 12:56:40 by dhanuman          #+#    #+#             */
 /*   Updated: 2023/03/09 19:33:11 by dhanuman         ###   ########.fr       */
