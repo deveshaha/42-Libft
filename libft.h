@@ -28,7 +28,7 @@ void	ft_bzero(void *s, size_t n);
 //strlcat
 int		ft_toupper(int c);
 int		ft_tolower(int c);
-//strchr
+char	*ft_strchr(const char *s, int c);
 //strncmp
 //memchr
 //memcmp
