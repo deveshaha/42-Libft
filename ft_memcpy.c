@@ -10,21 +10,27 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
-/*
-void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
+//#include <libft.h>
+#include <stdio.h>
+
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	int				i;
-	int				l;
-	unsigned char	*s;
+	size_t			i;
 
 	i = 0;
-	s = src;
-	l = n;
-	while (s[i] != '\0' && (i < l))
+	while (i < n)
 	{
-		dst = s[i];
+		((char *)dest)[i] = ((char *)src)[i];
 		i++;
 	}
+	return (dest);
 }
-*/
+
+int main (void)
+{
+	char *src = "Hello";
+	char *dst = "World";
+	ft_memcpy(dst, src, 5);
+	printf("%s", dst);
+	return (0);
+}

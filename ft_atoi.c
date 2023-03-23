@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 //NON FUNCTIONAL
-
+/*
 int	ft_atoi(char *str)
 {
 	int i;
@@ -36,3 +36,4 @@ int	ft_atoi(char *str)
 	}
 	return (res * s);
 }
+*/
