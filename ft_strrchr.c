@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//test failed
+
 char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
