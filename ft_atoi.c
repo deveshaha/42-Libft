@@ -6,12 +6,14 @@
 /*   By: dhanuman <dhanuman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 17:40:07 by dhanuman          #+#    #+#             */
-/*   Updated: 2023/03/09 17:54:46 by dhanuman         ###   ########.fr       */
+/*   Updated: 2023/04/04 13:15:08 by dhanuman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 //NON FUNCTIONAL
-/*
 int	ft_atoi(char *str)
 {
 	int i;
@@ -35,5 +37,20 @@ int	ft_atoi(char *str)
 
 	}
 	return (res * s);
+}
+/*
+int	main(void)
+{
+int	val;
+int	val2;
+char str[20] = "  	--12345678abc";
+
+val = atoi(str);
+
+printf("ORIGINAL FUNCTION: %d", val);
+
+val2 =ft_atoi(str);
+
+printf("\nMY FUNCTION: %d", val);
 }
 */

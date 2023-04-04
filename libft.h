@@ -6,7 +6,7 @@
 /*   By: dhanuman <dhanuman@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 15:34:39 by dhanuman          #+#    #+#             */
-/*   Updated: 2023/03/09 17:53:40 by dhanuman         ###   ########.fr       */
+/*   Updated: 2023/04/04 13:12:37 by dhanuman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ char	*ft_strrchr(const char *s, int c);
 //memchr
 //memcmp
 //strnstr
-//int ft_atoi(char *str);
+int ft_atoi(char *str);
 #endif
