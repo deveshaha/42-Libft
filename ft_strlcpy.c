@@ -14,6 +14,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//FIXME: ft_strlcpy is not working properly
+
 size_t    ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	unsigned i;
