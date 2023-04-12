@@ -21,9 +21,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	i = 0;
 
 	if (dest == NULL && src == NULL)
-	{
 		return (NULL);
-	}
 
 	while (i < n)
 	{
@@ -32,6 +30,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
 /*
 int main () {
    const char src[50] = "http://www.tutorialspoint.com";
