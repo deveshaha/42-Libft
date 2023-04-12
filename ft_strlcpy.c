@@ -16,25 +16,22 @@
 
 size_t    ft_strlcpy(char *dst, const char *src, size_t size)
 {
-    unsigned int    i;
-    unsigned int    len;
+	unsigned i;
 
-    i = 0;
-    len = 0;
-    if (dst == NULL || src == NULL)
-        return (0);
-    while (src[len] != '\0')
-        len++;
-    while (src[i] != '\0' && i < (size - 1))
-    {
-        dst[i] = src[i];
-        i++;
-    }
-    dst[i] = '\0';
-    return (len);
+	i = 0;
+	
+	if (dst == NULL && src == NULL)
+		return (0);
+
+	while (i < size - 1 && src[i] != '\0')
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = '\0';
+	return (i);
 }
 
-/*
 int main(void)
 {
   char  *src = "Hello World";
@@ -43,13 +40,12 @@ int main(void)
   //strlcpy(dest, src, sizeof(src));
   //printf("ORGIGINAL FUN: %s", dest);
   
-  ft_strlcpy(dest, src, sizeof(src));
+  ft_strlcpy(dest, src, 12);
   printf("MY FUN: %s", dest);
   
   int s = sizeof(src);
-  printf("SIZE OF SRC %d", s);
+  printf("\nSIZE OF SRC %d", s);
   
   return(0);
   
 }
-*/
