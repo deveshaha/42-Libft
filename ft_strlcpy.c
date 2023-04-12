@@ -31,7 +31,7 @@ size_t    ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (i);
 }
-
+/*
 int main(void)
 {
   char  *src = "Hello World";
@@ -49,3 +49,4 @@ int main(void)
   return(0);
   
 }
+*/
