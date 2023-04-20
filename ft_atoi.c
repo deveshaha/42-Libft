@@ -10,30 +10,31 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//NON FUNCTIONAL
-/*
-int	ft_atoi(char *str)
+#include "libft.h"
+
+//test
+
+int	ft_atoi(const char *str)
 {
 	int i;
-	int res;
-	int s;
+	int sign;
+	int result;
 
 	i = 0;
-	s = 1;
-	res = 0;
-
-	while (str[i] == '\t' || str[i] == '\n' || str[i] == '\v' || str[i] == '\f'
-		|| str[i] == '\r' || str[i] == ' ')
+	sign = 1;
+	result = 0;
+	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
 		i++;
+	if (str[i] == '-' || str[i] == '+')
+	{
+		if (str[i] == '-')
+			sign = -1;
+		i++;
+	}
 	while (str[i] >= '0' && str[i] <= '9')
 	{
-        if (str[i] == '-')
-		    s *= -1;
-        else
-            res = (str[i] - '0') + (res * 10);
-        i++;
-
+		result = result * 10 + str[i] - '0';
+		i++;
 	}
-	return (res * s);
+	return (result * sign);
 }
-*/
